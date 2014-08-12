@@ -6,6 +6,26 @@ This simple Node.js-based proxy server allows your JavaScript application to cal
 
 This proxy server was tested with the Salesforce.com REST API, but it should work with other services as well.
 
+## Installation
+
+There are different options to get your own instance of the CORS proxy up and running:
+
+1. Deploy to Heroku (easiest): click the 'Deploy to Heroku' button at the top of this page
+
+1. Install a local version
+    - Clone this repository
+    - Install the server dependencies
+    
+        ```
+        npm install
+        ```
+    
+    - Start the server
+         
+         ```
+         node server
+         ```
+
 ## Usage
 
 When making an API call using JavaScript (using XMLHTTPRequest, $.ajax, etc):
