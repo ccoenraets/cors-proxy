@@ -2,9 +2,12 @@
 
 # CORS Proxy
 
-This simple Node.js-based proxy server allows your JavaScript application to call services that are hosted on a different domain and that don't support [CORS](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing). Because the proxy server is itself CORS-enabled, your application and the proxy server don't have to be hosted on the same domain.
+This simple Node.js-based proxy allows your JavaScript application to call services that are hosted on a different domain and that don't support [CORS](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing). 
 
-This proxy server was tested with the Salesforce.com REST API, but it should work with other services as well.
+Because the proxy is itself CORS-enabled, your application and the proxy don't have to be hosted on the same 
+domain.
+
+This proxy was tested with the Salesforce.com REST API, but it should work with other services as well.
 
 ## Installation
 
