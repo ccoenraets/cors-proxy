@@ -37,7 +37,7 @@ When making an API call using JavaScript (using XMLHTTPRequest, $.ajax, etc):
 
 1. Set the request method, query parameters, and body as usual
 
-1. Set the actual service URL in a header named 'Target-Endpoint'
+1. Set the actual service URL in a header named 'Target-URL'
 
 1. Send the request as usual
 
