@@ -28,6 +28,7 @@ There are different options to get your own instance of the CORS proxy up and ru
          ```
          node server
          ```
+2. To run on Typescript
 
 ## Usage
 
