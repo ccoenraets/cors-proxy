@@ -54,6 +54,3 @@ The proxy currently passes the "Authorization" header to the target endpoint. Yo
  additional headers (or all of them).
  
 
-## Other Implementations
-
-Check out James Ward's [Saleforce CORS Proxy](https://github.com/jamesward/sf-cors-proxy) written in Scala.
