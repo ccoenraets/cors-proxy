@@ -4,8 +4,13 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "express": "~4.4.3",
-    "request": "~2.36.0",
-    "body-parser": "~1.5.2"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/node": "^12.12.17",
+    "@types/request": "^2.48.3"
   }
 }
