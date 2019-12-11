@@ -26,10 +26,26 @@ There are different options to get your own instance of the CORS proxy up and ru
     - Start the server
          
          ```
-         node server
+         npm start
          ```
 2. To run on Typescript
-
+     - Intall typescript
+        ```
+        npm install -g typescript
+        ```
+     - Install the server dependencies
+       ```
+        npm install
+        ```
+     - Compile typescipt 
+        ```
+        npm run compile
+        ```
+     - Start the server
+        ```
+        npm run start-ts
+        ```
+          
 ## Usage
 
 When making an API call using JavaScript (using XMLHTTPRequest, $.ajax, etc):
