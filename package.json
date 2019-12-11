@@ -3,6 +3,11 @@
   "description": "Simple Cors Proxy",
   "version": "0.0.1",
   "private": true,
+  "scripts": {
+    "build" :"tsc ./cors-proxy-ts/index.ts",
+    "start": "node server.js",
+    "start-ts": "node ./cors-proxy-ts/index.js"
+  },
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
