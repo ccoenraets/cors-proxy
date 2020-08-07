@@ -28,7 +28,7 @@ There are different options to get your own instance of the CORS proxy up and ru
          ```
          npm start
          ```
-2. To run on Typescript
+2. To run with Typescript
      - Intall typescript
         ```
         npm install -g typescript
