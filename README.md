@@ -26,9 +26,26 @@ There are different options to get your own instance of the CORS proxy up and ru
     - Start the server
          
          ```
-         node server
+         npm start
          ```
-
+2. To run with Typescript
+     - Intall typescript
+        ```
+        npm install -g typescript
+        ```
+     - Install the server dependencies
+       ```
+        npm install
+        ```
+     - Compile typescipt 
+        ```
+        npm run compile
+        ```
+     - Start the server
+        ```
+        npm run start-ts
+        ```
+          
 ## Usage
 
 When making an API call using JavaScript (using XMLHTTPRequest, $.ajax, etc):
@@ -37,7 +54,7 @@ When making an API call using JavaScript (using XMLHTTPRequest, $.ajax, etc):
 
 1. Set the request method, query parameters, and body as usual
 
-1. Set the actual service URL in a header named 'Target-Endpoint'
+1. Set the actual service URL in a header named 'Target-URL'
 
 1. Send the request as usual
 
@@ -54,6 +71,3 @@ The proxy currently passes the "Authorization" header to the target endpoint. Yo
  additional headers (or all of them).
  
 
-## Other Implementations
-
-Check out James Ward's [Saleforce CORS Proxy](https://github.com/jamesward/sf-cors-proxy) written in Scala.
